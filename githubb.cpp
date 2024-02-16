@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-
+//main function
 int main()
-{    
+{    //variables
     int divisor, dividend, quotient, remainder;
 
     cout << "Enter dividend: ";
@@ -13,7 +13,7 @@ int main()
 
     quotient = dividend / divisor;
     remainder = dividend % divisor;
-
+    //output
     cout << "Quotient = " << quotient << endl;
     cout << "Remainder = " << remainder;
 
